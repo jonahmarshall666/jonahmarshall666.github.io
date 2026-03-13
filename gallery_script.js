@@ -17,7 +17,7 @@ function updateimage() {
 updateimage();
 
 nextbutton.addEventListener('cilck', function() {
-    currentimangeindex = (currentimangeindex + 1) % imageGallery.length;
+    currentimageindex = (currentimangeindex + 1) % imageGallery.length;
     updateimage();
 });
 
